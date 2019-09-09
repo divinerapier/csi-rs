@@ -1,0 +1,16 @@
+[package]
+name = "csi"
+version = "0.1.0"
+authors = ["divinerapier <poriter.coco@gmail.com>"]
+edition = "2018"
+publish = true
+repository = "https://github.com/divinerapier/csi-rs"
+description = "A container storage interface implement in rust"
+license = "Apache-2.0"
+categories = ["kubernetes", "storage"]
+keyworks = ["kubernetes", "csi", "storage"]
+include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
